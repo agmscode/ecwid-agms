@@ -45,4 +45,55 @@
 | IPAddress			| x_customer_ip			| Mapped Directly				|
 
 
+### Response
+
+| Agms				| Authnet 				| Remarks 						|
+| ----------------	| --------------------- | ----------------------------- |
+| STATUS_CODE		| x_response_code		| Mapped Modified				|
+| 					| x_response_reason_code| Not Mapped					|
+| STATUS_MSG		| x_response_reason_text| Mapped Directly				|
+| AUTH_CODE			| x_auth_code			| Mapped Directly				|
+| AVS_CODE			| x_avs_code			| Mapped Directly				|
+| TRANS_ID			| x_trans_id			| Mapped Directly				|
+|					| x_invoice_num			| Not Mapped					|
+|					| x_description			| Not Mapped					|
+| 					| x_amount				| Not Mapped					|
+| 					| x_method				| Not Mapped					|
+| 					| x_type				| Not Mapped					|
+| 					| x_account_number		| Not Mapped					|
+| 					| x_card_type			| Not Mapped					|
+| 					| x_split_tender_id		| Not Mapped					|
+| 					| x_prepaid_requested_amount| Not Mapped				|
+| 					| x_prepaid_balance_on_card| Not Mapped					|
+| 					| x_cust_id				| Not Mapped					|
+| 					| x_first_name			| Not Mapped					|
+| 					| x_last_name			| Not Mapped					|
+| 					| x_company				| Not Mapped					|
+| 					| x_address				| Not Mapped					|
+| 					| x_city				| Not Mapped					|
+| 					| x_state				| Not Mapped					|
+| 					| x_zip					| Not Mapped					|
+| 					| x_country				| Not Mapped					|
+| 					| x_phone				| Not Mapped					|
+| 					| x_fax					| Not Mapped					|
+| 					| x_email				| Not Mapped					|
+| 					| x_ship_to_first_name	| Not Mapped					|
+| 					| x_ship_to_last_name	| Not Mapped					|
+| 					| x_ship_to_company		| Not Mapped					|
+| 					| x_ship_to_address		| Not Mapped					|
+| 					| x_ship_to_city		| Not Mapped					|
+| 					| x_ship_to_state		| Not Mapped					|
+| 					| x_ship_to_zip			| Not Mapped					|
+| 					| x_ship_to_country		| Not Mapped					|
+| 					| x_tax					| Not Mapped					|
+| 					| x_freight				| Not Mapped					|
+| 					| x_duty				| Not Mapped					|
+| 					| x_tax_exempt			| Not Mapped					|
+| 					| x_po_num				| Not Mapped					|
+| 					| x_MD5_Hash			| Not Mapped					|
+| 					| x_cvv2_resp_code		| Not Mapped					|
+| 					| x_cavv_response		| Not Mapped					|
+
+
+
 
